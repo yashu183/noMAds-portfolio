@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'myFontBtn';
+    src: url(../../../assets/fonts/Domine-VariableFont_wght.ttf);
+}
+
+
+.btn {
+    animation-name: fadeIn, bounce;
+    -webkit-animation-name: fadeIn, bounce;
+
+    animation-duration: 1s, 2s;
+    -webkit-animation-duration: 1s, 2s;
+    
+    width: 16rem;
+    height: 3rem;
+    background: 
+    linear-gradient(#F7D9D9, #F8DDDD) padding-box,
+    linear-gradient(to right, #FE546F, #007BFF) border-box;
+    border-radius: 50em;
+    border: 3px solid transparent;
+    position: absolute;
+    top: 72%;
+    left: 13%;
+    font-family: 'myFontBtn';
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-txt {
+    background: linear-gradient(to right, #FE546F 0, #007BFF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.arrow-up {
+    margin-left: 2px;
+}
+
+.scribble-line {
+    position: absolute;
+    top: 73%;
+    left: 6%;
+}
+
+.btn :hover{
+    cursor: pointer;
+}

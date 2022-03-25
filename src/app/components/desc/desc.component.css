@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'myFontName';
+    src: url(../../../assets/fonts/Nunito-VariableFont_wght.ttf);
+}
+
+.name {
+    position: absolute;
+    top: 32%;
+    left: 6%;
+    font-family: 'myFontName';
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.desc-line {
+    margin-top: 10px;
+    position: absolute;
+    top: 43%;
+    left: 6%;
+    margin-top: 15px;
+}
+
+.desc {
+    font-family: 'myFontName';
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.about {
+    font-family: 'myFontName'; 
+    font-size: 1.5rem;
+    font-weight: 200;
+    position: absolute;
+    top: 51%;
+    left: 6%;
+    width: 40%;
+}

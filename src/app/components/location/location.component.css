@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'myFontLocation';
+    src: url(../../../assets/fonts/Domine-VariableFont_wght.ttf);
+}
+
+
+.location-text {
+    font-family: 'myFontLocation';
+    font-size: 21px;
+    font-weight: 600;
+}
+
+::ng-deep ngx-arc-text.location-text span {
+    background: linear-gradient(180deg, rgba(74, 57, 181, 0.12) 0%, rgba(218, 39, 179, 0.12) 51.56%, rgba(254, 84, 111, 0.12) 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
