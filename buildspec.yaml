@@ -1,0 +1,22 @@
+version: 0.2
+env:
+  variables:
+    stage: dev
+    region: "us-east-1"
+    appName: "sample"
+    
+phases:
+  install:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm i
+  build:
+    commands:
+      - echo "Build starting on `date`"
+      - ls
+      - NODE_OPTIONS=--max-old-space-size=4096
+      - ng build --dev
+  post_build:
+    commands:
+      - ls dist
+      - echo Build completed!!!
